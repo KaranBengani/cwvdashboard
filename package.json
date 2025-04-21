@@ -4,7 +4,7 @@
   "description": "A lightweight, customizable dashboard that visualizes Core Web Vitals across your Next.js app, enabling teams to monitor, debug, and improve page-level performance at a glance. Displays route-level performance metrics collected via CWV instrumentation. Designed to plug seamlessly into your analytics stack or be used standalone during dev.",
   "keywords": ["core web vitals", "dashboard", "nextjs", "performance", "monitoring"],
   "license": "ISC",
-  "repository": {"url": ""},
+  "repository": {"url": "https://github.com/KaranBengani/cwvdashboard"},
   "author": "Karan Bengani",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
