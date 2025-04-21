@@ -12,8 +12,8 @@ Ideal for developers, QA teams, and performance engineers who want an at-a-glanc
 ![Bar Graphs](./assets/dashboard2.png)
 ![Line Graphs](./assets/dashboard3.png)
 ![Pie Charts](./assets/dashboard6.png)
-![Filters](./assets/dashboard4.png)
-![Filters](./assets/dashboard5.png)
+![Filters](./assets/dashboard-4.png)
+![Filters](./assets/dashboard-5.png)
 
 > Note: The status shown in the table will only be applicable if you are using cwvguard's middleware. All the columns in the metrics table also can be sorted on clicking the column heading. 
 ---
