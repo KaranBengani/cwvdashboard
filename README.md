@@ -99,16 +99,24 @@ export default dashboard
 Make sure this file is available and generated via `cwvguard` or manually created:
 
 ```
-src/public/blocked-routes.json
+/public/cwv-scores-manual.json
 ```
 
 Sample content:
 
 ```json
 [
-  "/aboutus",
-  "/",
-  "contactus"
+ {
+     "url": "/",
+     "LHS_Score": 70,
+     "LCP": 6.106800137499999,
+     "FCP": 1.9676656225000002,
+     "INP": 6129.401651749999,
+     "CLS": 0.02978873885368724,
+     "FID": 89,
+     "blocked": false
+   },
+   ...
 ]
 ```
 
@@ -122,7 +130,7 @@ Sample content:
 
 ## 🔗 Related Packages
 
-- [`cwvguard`](https://www.npmjs.com/package/cwvguard) – For generating `blocked-routes.json`
+- [`cwvguard`](https://www.npmjs.com/package/cwvguard) – For generating `cwv-scores-manual.json`
 - [Core Web Vitals](https://web.dev/vitals/) – Official web performance metrics
 
 ---
